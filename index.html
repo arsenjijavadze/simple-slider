@@ -5,16 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple slide show</title>
+    <title>Simple Slideshow</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:wght@200&display=swap"
+        rel="stylesheet">
     <!-- 
     <script src="js/script.js"></script>
      -->
 </head>
 
 <body>
+    <div>
+        <h1>BATUMI VIBES</h1>
+    </div>
     <div class="simple-slider" id="simple-slider">
-        <img src="/img/slider_images/1.jpg" alt="slide-image" class="simple-slider__image" id="slide-img">
+        <div class="simple-slider__image-box">
+            <img src="/img/slider_images/1.jpg" alt="slide-image" class="simple-slider__image" id="slide-img">
+        </div>
         <div class="simple-slider__button-box"></div>
         <button class="simple-slider__button" id="prev-button">Preview</button>
         <button class="simple-slider__button" id="next-button">Next</button>

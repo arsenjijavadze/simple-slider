@@ -30,6 +30,8 @@ function Slider() {
         this.sliderImages.push('./img/slider_images/3.jpg');
         this.sliderImages.push('./img/slider_images/4.jpg');
         this.sliderImages.push('./img/slider_images/5.jpg');
+        this.sliderImages.push('./img/slider_images/6.jpg');
+        this.sliderImages.push('./img/slider_images/7.jpg');
 
         this.slideImage.src = this.sliderImages[this.currentImageIndex];
         this.showPrevButton.disabled = true;

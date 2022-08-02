@@ -73,20 +73,30 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 html {
   padding: 30px;
+  background-color: black;
+}
+html h1 {
+  color: gold;
+  text-align: center;
+  margin: 20px auto 20px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 123px;
 }
 html .simple-slider {
   width: 50%;
   margin: 0 auto;
   text-align: center;
 }
-html .simple-slider__image {
-  width: 80%;
-  height: 400px;
+html .simple-slider #slide-img {
+  max-width: 100%;
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 html .simple-slider__button {
   width: 50px;
   height: 50px;
-  margin: 5px;
+  margin: 30px;
   border: 1px solid black;
 }
 html .simple-slider__button:hover {
